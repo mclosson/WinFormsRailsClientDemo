@@ -1,0 +1,17 @@
+WinFormsRailsClientDemo is a demo application which shows how to use the
+railsclient.dll assembly in a WinForms application using C#.  To run this
+you should first clone and build the railsclient project from here:
+
+C:\> git clone git@github.com:mclosson/railsclient.git
+
+Next build the project and add a reference to the resulting output assembly
+(railsclient.dll).  Finally you should be able to build and run this test
+application.  It is presently set to interact with a demo web service hosted
+at:
+
+http://restfuldemo.heroku.com
+
+However you could reconfigure it to talk to your own Rails web service.  This
+demo is under development and contains known bugs.  All contributions are
+welcome and will likely be accepted.  Feel free to use this code in any way
+you wish to.
